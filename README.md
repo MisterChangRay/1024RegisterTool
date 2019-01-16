@@ -1,5 +1,5 @@
 # 1024RegisterTool
-这是一个帮助大家尽快上岸的工具。1024注册码工具,暗码破解工具
+这是一个帮助大家尽快上岸的工具。1024邀请码工具,邀请码暗码破解工具
 
 #### 怎么使用
 1. 填入正确的1024网址
@@ -23,3 +23,8 @@
 1. 确保填写的1024网址无误;
 2. 确保机器能正确的链接到网址,要知道1024现在是被Q了的
 3. 不建议大家多开使用,1024有相应的封IP措施
+
+
+#### 如何下载
+[点击直接下载 v1.0](https://github.com/MisterChangRay/1024RegisterTool/releases/download/V1.0/Register1024.exe)
+[前往下载页面](https://github.com/MisterChangRay/1024RegisterTool/releases)
