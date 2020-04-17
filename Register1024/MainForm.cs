@@ -209,14 +209,17 @@ namespace Register1024
     		String tmp2 = code;
         	for(int i =0; i<jw.Count; i++) {
         		if(jw[i].Equals("{c}")) {
-        			tmp2 = tmp2.Replace("{c}", last[i].ToString());
+                    Regex reg = new Regex("{c}");
+                    tmp2 = reg.Replace(tmp2, last[i].ToString(), 1);
 				}
 				if(jw[i].Equals("{a}")) {
-					tmp2 = tmp2.Replace("{a}", last[i].ToString());
-				}
+                    Regex reg = new Regex("{a}");
+                    tmp2 = reg.Replace(tmp2, last[i].ToString(), 1);
+                }
 				if(jw[i].Equals("{i}")) {
-        			tmp2 = tmp2.Replace("{i}", last[i].ToString());
-				}
+                    Regex reg = new Regex("{i}");
+                    tmp2 = reg.Replace(tmp2, last[i].ToString(), 1);
+                }
 			}
         	res.Add(tmp2);
         	
