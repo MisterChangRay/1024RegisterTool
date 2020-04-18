@@ -26,5 +26,9 @@
 
 
 #### 如何下载
-1. [点击直接下载 v1.0](https://github.com/MisterChangRay/1024RegisterTool/releases/download/V1.0/Register1024.exe)
+1. [点击直接下载 v1.0.1](https://github.com/MisterChangRay/1024RegisterTool/releases/download/V1.0.1/Register1024_V1.0.1.exe)
 2. [前往下载页面](https://github.com/MisterChangRay/1024RegisterTool/releases)
+
+
+#### 代码贡献
+- 感谢 sorvon 同学的Bug修复
