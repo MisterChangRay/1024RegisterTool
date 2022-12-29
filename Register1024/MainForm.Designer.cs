@@ -24,6 +24,8 @@ namespace Register1024
 		private System.Windows.Forms.ToolStripMenuItem 使用方法ToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem 关于ToolStripMenuItem1;
 		private System.Windows.Forms.TextBox textBox_log;
+		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.TextBox textBox_orc;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -57,12 +59,14 @@ namespace Register1024
 			this.使用方法ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.关于ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
 			this.textBox_log = new System.Windows.Forms.TextBox();
+			this.label2 = new System.Windows.Forms.Label();
+			this.textBox_orc = new System.Windows.Forms.TextBox();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(21, 56);
+			this.button1.Location = new System.Drawing.Point(21, 110);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(204, 24);
 			this.button1.TabIndex = 0;
@@ -74,9 +78,9 @@ namespace Register1024
 			// 
 			this.label1.Location = new System.Drawing.Point(21, 29);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(53, 23);
+			this.label1.Size = new System.Drawing.Size(99, 23);
 			this.label1.TabIndex = 1;
-			this.label1.Text = "1024地址";
+			this.label1.Text = "1024地址(https)";
 			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// 啊
@@ -90,11 +94,12 @@ namespace Register1024
 			// 
 			// textBox_url
 			// 
-			this.textBox_url.Location = new System.Drawing.Point(100, 29);
+			this.textBox_url.Location = new System.Drawing.Point(126, 28);
 			this.textBox_url.Name = "textBox_url";
 			this.textBox_url.Size = new System.Drawing.Size(175, 21);
 			this.textBox_url.TabIndex = 3;
-			this.textBox_url.Text = "http://t66y.com";
+			this.textBox_url.Text = "https://cl.6803x.xyz";
+			this.textBox_url.TextChanged += new System.EventHandler(this.TextBox_urlTextChanged);
 			// 
 			// textBox_code
 			// 
@@ -110,7 +115,7 @@ namespace Register1024
 			this.关于ToolStripMenuItem});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
-			this.menuStrip1.Size = new System.Drawing.Size(757, 25);
+			this.menuStrip1.Size = new System.Drawing.Size(761, 25);
 			this.menuStrip1.TabIndex = 5;
 			this.menuStrip1.Text = "menuStrip1";
 			// 
@@ -139,21 +144,41 @@ namespace Register1024
 			// 
 			// textBox_log
 			// 
-			this.textBox_log.Location = new System.Drawing.Point(21, 96);
+			this.textBox_log.Location = new System.Drawing.Point(21, 153);
 			this.textBox_log.Multiline = true;
 			this.textBox_log.Name = "textBox_log";
 			this.textBox_log.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-			this.textBox_log.Size = new System.Drawing.Size(716, 220);
+			this.textBox_log.Size = new System.Drawing.Size(716, 381);
 			this.textBox_log.TabIndex = 6;
 			this.textBox_log.Text = resources.GetString("textBox_log.Text");
 			this.textBox_log.WordWrap = false;
+			// 
+			// label2
+			// 
+			this.label2.Location = new System.Drawing.Point(-11, 68);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(131, 23);
+			this.label2.TabIndex = 7;
+			this.label2.Text = "验证码识别服务器";
+			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// textBox_orc
+			// 
+			this.textBox_orc.Location = new System.Drawing.Point(126, 70);
+			this.textBox_orc.Name = "textBox_orc";
+			this.textBox_orc.Size = new System.Drawing.Size(448, 21);
+			this.textBox_orc.TabIndex = 8;
+			this.textBox_orc.Text = "http://8.131.242.140:7554/upload";
+			this.textBox_orc.TextChanged += new System.EventHandler(this.TextBox1TextChanged);
 			// 
 			// MainForm
 			// 
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
 			this.AutoScroll = true;
 			this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.ClientSize = new System.Drawing.Size(757, 345);
+			this.ClientSize = new System.Drawing.Size(761, 560);
+			this.Controls.Add(this.textBox_orc);
+			this.Controls.Add(this.label2);
 			this.Controls.Add(this.textBox_log);
 			this.Controls.Add(this.textBox_code);
 			this.Controls.Add(this.textBox_url);

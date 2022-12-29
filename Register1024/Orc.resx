@@ -117,19 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="textBox_log.Text" xml:space="preserve">
-    <value>===============================================================================
-=
-=           welcome use my program for 1024 register code
-= 		by:蜗牛快快跑	mysite:www.mtils.com 
-=	  使用前请输入能访问的1024地址,不然程序不能正常运行
-=	      邀请码规则说明请看菜单(使用手册-&gt;使用方法)
-=		祝大家早日上岸。另2023新年快乐!	
-=                         V1.1.0
-===============================================================================
-</value>
-  </data>
 </root>
