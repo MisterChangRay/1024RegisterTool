@@ -2,9 +2,9 @@
 这是一个帮助大家尽快上岸的工具。1024邀请码工具,邀请码暗码破解工具
 
 # 截至2022/07/26，此软件运行正常。不能使用的请注意网络是否能正常访问。另外这里统一做一个说明， 有码不代表100%尝试成功， 软件本身的功能仅仅是提供自动尝试而已。 也有可能别人运气更好， 一次成功。
-# 2022/12/29发布V1.1.0,新增验证码和ORC识别, 演示视频如下：
+# 2022/12/29发布V1.1.0,新增验证码和ORC识别, 演示如下：
 
-<video src="https://github.com/MisterChangRay/1024RegisterTool/blob/master/%E4%BD%BF%E7%94%A8%E8%A7%86%E9%A2%9120221229.mp4"></video>
+![演示GIF](https://github.com/MisterChangRay/1024RegisterTool/blob/master/%E4%BD%BF%E7%94%A8GIF.gif)
 
 
 如果大家注册成功了， 麻烦再issue中回复一下， 方便大家交流。 
